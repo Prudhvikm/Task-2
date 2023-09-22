@@ -1,0 +1,26 @@
+*Difference b/w Document and Window Object?
+  ----------------------------------------------------------------------
+ 
+* Documnet Object:
+   ---------------------------
+	*The browser creates a Document Object Model of the page when a web page is loaded.
+	* It is the root element that represents the html document.
+	*The document object represents the whole html document as a tree of Objects(HTML, HEAD, BODY, and other HTML tags).
+	*Each HTML document that gets loaded into a window becomes a document object.
+	*The document contains the contents of the page.
+	*Using document object, JavaScript can modify, add and delete the HTML elements, attributes CSS styles in the page
+	*You can access a document object either using window.document property or using document object directly as window is global object.
+
+
+*Window Object:
+ ------------------------
+	*The window object represents a window/tab containing a DOM document.
+	*where as document object is property of window object that points to the DOM document loaded in that window.
+	* It is the top most object and outermost element of the object hierarchy.
+	*Window object has properties like browser history, location and the device’s screen etc.
+	* In case of multi tab browser, a window object represents a single tab, but some of its properties like innerHeight, innerWidth and methods like resizeTo() will affect the whole browser window.
+
+
+*Note:
+ ---------
+	*The other major difference is that both window object and document object have properties and methods. Few method names are same in both objects but with different behavior.
